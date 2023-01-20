@@ -1,18 +1,18 @@
 import chalk from "chalk";
 import inquirer from "inquirer";
 
-let eurToPkr: number = 0;
-let eurToUsd: number = 0;
-let eurToAu: number = 0;
-let auToEur: number = 0;
-let auToUsd: number = 0;
-let auToPkr: number = 0;
-let pkrtoUsd: number = 0;
-let pkrtoEur: number = 0;
-let pkrtoAu: number = 0;
-let usdToPkr: number = 259;
-let usdToEur: number = 0;
-let usdToAu: number = 0;
+let eurToPkr: number = 248.92;
+let eurToUsd: number = 1.08;
+let eurToAu: number = 1.56;
+let auToEur: number = 0.64;
+let auToUsd: number = 0.69;
+let auToPkr: number = 158;
+let pkrtoUsd: number = 0.0044;
+let pkrtoEur: number = 0.004;
+let pkrtoAu: number = 0.0063;
+let usdToPkr: number = 229;
+let usdToEur: number = 0.92;
+let usdToAu: number = 1.44;
 
 async function main() {
     await inquirer.prompt([{
