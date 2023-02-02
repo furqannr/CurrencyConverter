@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let eurToPkr = 248.92;
 let eurToUsd = 1.08;
